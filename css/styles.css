@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 20%;
+    float: left;
+}
+
+.column-6 {
+    width: 16.66%;
+    float: left;
+}
+
+.column-30 {
+    width: 20%;
+    float: right;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    background-color: green;
+    color: white;
+    height: 845vh;
+}
+
+.column-75 {
+    width: 65%;
+    float: left;
+}
+
+.column-nav {
+    width: 15%;
+    float: left;
+    border: solid 2px rgba(0, 0, 0, 0.4);
+    background-color: green;
+    color: white;
+    height: 845vh;
+}
+
+.column-nav a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    color: white;
+}
+
+img {
+    width: 100%;
+    background-size: cover;
+}
+
+header {
+    height: 100vh;
+    background-image: url('../img/Cascamorras.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 0 20%;
+    font-size: 50px;
+    text-align: center;
+}
+
+#img-1 {
+    background-image: url("../img/Cascamorras_Plaza_Eras.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-2 {
+    background-image: url("../img/Sierra_de_Baza.jpeg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-3 {
+    background-image: url("../img/Puente_Hierro_Baza.jpeg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-4 {
+    background-image: url("../img/Dama-Baza.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-5 {
+    background-image: url("../img/Caños-Dorados.JPG");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-6 {
+    background-image: url("../img/Plaza\ de\ las\ tetas.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-7 {
+    background-image: url("../img/museo.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-8 {
+    background-image: url("../img/yacimientos.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-9 {
+    background-image: url("../img/Palacio-de-los-Enrquez-1.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-10 {
+    background-image: url("../img/baños.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-11 {
+    background-image: url("../img/ayuntamiento.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-12 {
+    background-image: url("../img/alcazaba.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-13 {
+    background-image: url("../img/torre.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-14 {
+    background-image: url("../img/convento.jpg");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-15 {
+    background-image: url("../img/antiguo-convento-de-santa-isabel-s-xvi_xviii-.webp");
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-16 {
+    background-image: url("../img/feria.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-17 {
+    background-image: url("../img/semana\ santa.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-18 {
+    background-image: url("../img/cruces-de-baza.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.padding-s {
+    padding: 2%;
+}
+
+.padding-m {
+    padding: 0.5%;
+}
+
+.back-white {
+    background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+    ul {
+        padding-left: 1px;
+    }
+    a {
+        color: white;
+    }
+    .column-3 {
+        width: 50%;
+    }
+    p {
+        font-size: 14px;
+    }
+}
