@@ -297,7 +297,16 @@ h1 {
     .column-3 {
         width: 50%;
     }
+    .column-30 {
+        height: 1068vh;
+    }
+    .column-nav {
+        height: 1068vh;
+    }
     p {
         font-size: 14px;
+    }
+    h6 {
+        font-size: 16px;
     }
 }
